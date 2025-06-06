@@ -1,4 +1,6 @@
+---
 name: kvm_automation_tooling
+analytics: false
 plugin-hooks:
   puppet_library:
     plugin: task
