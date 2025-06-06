@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'openvox', '~> 8.0'
+gem 'syslog', '< 1' # dependency of openvox on Ruby 3.4
 gem 'nokogiri', '~> 1.18'
 gem 'ruby-libvirt', '~> 0.8.0'
 # These two provide ed25519 key support for net-ssh
