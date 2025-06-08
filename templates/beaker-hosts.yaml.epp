@@ -25,4 +25,5 @@ HOSTS:
     hypervisor: none
 <%- } -%>
 CONFIG:
+  keyfile: ~/.ssh/ssh-id-test
   forge_host:
